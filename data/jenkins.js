@@ -7,7 +7,7 @@ icon: “🚀”,
 questions: [
 
 {
-question: “Explain your Build → Promote → Deploy architecture.”,
+question: “Explain your Build - Promote - Deploy architecture.”,
 
 answer: `The Build pipeline compiles code, executes tests and produces immutable artifacts. The Promote pipeline validates those artifacts in higher environments and performs approvals. The Deploy pipeline handles the actual deployment to production.
 
