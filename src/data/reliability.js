@@ -1,0 +1,1 @@
+export const reliabilityQuestions=[{question:'SLO',answer:'Target reliability objective.'}];

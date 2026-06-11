@@ -1,0 +1,1 @@
+export const kubernetesQuestions=[{question:'Pod Lifecycle',answer:'Pending Running Succeeded Failed Unknown.'},{question:'HPA',answer:'Scales pods based on metrics.'}];

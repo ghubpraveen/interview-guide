@@ -1,0 +1,1 @@
+export const gcpQuestions=[{question:'GKE vs EKS',answer:'Managed Kubernetes offerings.'}];

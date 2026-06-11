@@ -1,0 +1,1 @@
+export const kubernetesTroubleshootingQuestions=[{question:'CrashLoopBackOff',answer:'Check logs, events and startup failures.'}];

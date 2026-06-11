@@ -1,0 +1,1 @@
+export const terraformQuestions=[{question:'Terraform State',answer:'Tracks infrastructure resources.'}];

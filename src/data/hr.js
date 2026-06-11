@@ -1,0 +1,1 @@
+export const hrQuestions=[{question:'Tell me about yourself',answer:'DevOps engineer with Jenkins, Kubernetes, Terraform, AWS and GCP experience.'}];

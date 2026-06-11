@@ -1,0 +1,1 @@
+export const jenkinsQuestions=[{question:'Build Promote Deploy',answer:'Separate build, validation and deployment stages.'}];

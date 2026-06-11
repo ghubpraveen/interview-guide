@@ -1,0 +1,1 @@
+export const incidentQuestions=[{question:'2AM outage',answer:'Detect, triage, mitigate, RCA.'}];
