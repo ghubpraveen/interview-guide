@@ -104,6 +104,8 @@ async function loadData() {
 
     const modules = await Promise.all([        
 
+        import("./data/capacityPlanning.js"),
+        
         import("./data/experienceInterview.js"),
 
         import("./data/realWorldScenarios.js"),
