@@ -106,6 +106,8 @@ async function loadData() {
 
         import("./data/experienceInterview.js"),
 
+        import("./data/realWorldScenarios.js"),
+
         import("./data/experience.js"),
 
         import("./data/jenkins.js"),
