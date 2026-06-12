@@ -1,168 +1,278 @@
 const hr = {
 
-title: “HR & Behavioral”,
+```
+title: "HR & Behavioral",
 
-icon: “👤”,
+icon: "👤",
 
 questions: [
 
-{
-question: “Tell me about yourself.”,
+    {
+        question: "Tell me about yourself.",
 
-answer: `I am a Senior DevOps and Cloud Infrastructure Engineer with over 8 years of IT experience and more than 20 years of overall professional experience. My expertise includes Jenkins, Kubernetes, Terraform, AWS and GCP.
+        answer: `I am a Senior DevOps and Cloud Infrastructure Engineer with over 8 years of IT experience and more than 20 years of overall professional experience.
+```
 
-Currently I work on designing and maintaining CI/CD pipelines, Kubernetes deployments, infrastructure automation and cloud operations. My background in engineering and project management before moving into IT helped me develop a structured approach to problem solving, incident management and stakeholder communication.
+My expertise includes Jenkins, Kubernetes, Terraform, AWS and GCP.
+
+Currently I work on designing and maintaining CI/CD pipelines, Kubernetes deployments, infrastructure automation and cloud operations.
+
+My background in engineering and project management before moving into IT helped me develop a structured approach to problem solving, incident management and stakeholder communication.
 
 What excites me most is building reliable platforms that enable development teams to deliver software faster and more safely.`
 },
 
-{
-question: “Why are you looking for a change?”,
+```
+    {
+        question: "Why are you looking for a change?",
 
-answer: I am looking for opportunities where I can work on larger scale cloud infrastructure, platform engineering and reliability challenges. I enjoy automation, Kubernetes and infrastructure engineering, and I would like to contribute in an environment where those skills can have a broader impact.
+        answer: `I am looking for opportunities where I can work on larger scale cloud infrastructure and platform engineering challenges.
+```
+
+I enjoy solving automation, reliability and operational problems, and I would like to contribute in an environment where those skills can have a greater impact.`
 },
 
-{
-question: “Why should we hire you?”,
+```
+    {
+        question: "Why should we hire you?",
 
-answer: `I bring strong hands-on experience across DevOps, Kubernetes, CI/CD and infrastructure automation. I have worked in both operational and engineering roles and understand how to balance speed, reliability and business requirements.
+        answer: `I bring hands-on experience across DevOps, Kubernetes, Terraform, AWS, GCP and CI/CD automation.
+```
 
-I am also comfortable troubleshooting production issues, working with developers and driving automation initiatives from concept to implementation.`
+I have worked on both infrastructure engineering and production support, which gives me a balanced understanding of reliability and delivery.
+
+I also bring maturity, ownership and strong problem-solving skills developed through both my IT and engineering careers.`
 },
 
-{
-question: “What are your greatest strengths?”,
+```
+    {
+        question: "What are your biggest strengths?",
 
-answer: My strongest qualities are problem solving, ownership and automation. I enjoy simplifying repetitive processes and creating scalable solutions. I am also known for remaining calm during incidents and focusing on data-driven troubleshooting.
+        answer: `My strongest qualities are ownership, problem solving and automation.
+```
+
+I enjoy simplifying complex processes and creating scalable solutions.
+
+I am also comfortable handling production issues and working collaboratively across teams.`
 },
 
-{
-question: “What is your biggest weakness?”,
+```
+    {
+        question: "What is your biggest weakness?",
 
-answer: Earlier in my career I sometimes spent too much time trying to perfect solutions before delivery. Over time I learned to focus on delivering business value first and then iteratively improving solutions.
+        answer: `Earlier in my career I sometimes spent too much time perfecting solutions before delivery.
+```
+
+Over time I learned the importance of delivering value first and then continuously improving solutions through iteration.`
 },
 
-{
-question: “Describe a production incident you handled.”,
+```
+    {
+        question: "Describe a production incident you handled.",
 
-answer: A production deployment caused application instability due to incorrect configuration. I coordinated with development and infrastructure teams, rolled back the release, restored service and later implemented additional validation checks in the deployment pipeline to prevent recurrence.
+        answer: `A deployment introduced a configuration issue that caused application instability.
+```
+
+I coordinated with development and infrastructure teams, rolled back the deployment, restored service and implemented additional validation checks in the deployment pipeline.
+
+The result was faster recovery and improved deployment safety.`
 },
 
-{
-question: “Tell me about a difficult stakeholder.”,
+```
+    {
+        question: "Tell me about a difficult stakeholder.",
 
-answer: I focus on understanding concerns first. Most disagreements come from differing priorities rather than technical issues. By presenting facts, risks and alternatives clearly, I usually find common ground and move the discussion forward.
+        answer: `I focus on understanding concerns first.
+```
+
+Most disagreements are usually about priorities rather than technology.
+
+By presenting data, risks and alternatives clearly, I work toward a solution that meets both technical and business requirements.`
 },
 
-{
-question: “How do you handle pressure?”,
+```
+    {
+        question: "How do you handle pressure?",
 
-answer: I prioritize tasks, focus on impact and avoid reacting emotionally. During incidents I work methodically, gather evidence and communicate clearly. That approach has consistently helped me resolve issues efficiently.
+        answer: `I prioritize tasks, focus on facts and communicate clearly.
+```
+
+During incidents I avoid emotional reactions and instead work methodically through investigation, mitigation and resolution.
+
+This approach has consistently helped me handle high-pressure situations effectively.`
 },
 
-{
-question: “Describe a time you automated a manual process.”,
+```
+    {
+        question: "Describe a process you automated.",
 
-answer: I automated infrastructure provisioning using Terraform and Jenkins pipelines. What previously required manual execution became a repeatable process, reducing provisioning time from days to under an hour.
+        answer: `I automated infrastructure provisioning using Terraform and Jenkins.
+```
+
+What previously required manual execution became a repeatable pipeline-driven process.
+
+Provisioning time reduced significantly while consistency and auditability improved.`
 },
 
-{
-question: “Tell me about a failure.”,
+```
+    {
+        question: "Tell me about a failure.",
 
-answer: One deployment introduced an unexpected application issue. Although rollback restored service quickly, I learned the importance of stronger pre-production validation and implemented additional deployment checks afterward.
+        answer: `One deployment introduced an unexpected issue that affected application availability.
+```
+
+Although rollback restored service quickly, the incident highlighted gaps in validation.
+
+Additional testing and deployment gates were introduced to prevent recurrence.`
 },
 
-{
-question: “How do you prioritize work?”,
+```
+    {
+        question: "How do you prioritize work?",
 
-answer: I prioritize based on business impact, production risk and dependencies. Critical incidents always come first, followed by work that improves reliability, automation and delivery efficiency.
+        answer: `I prioritize based on business impact, production risk and dependencies.
+```
+
+Critical incidents come first, followed by work that improves reliability, automation and delivery efficiency.`
 },
 
-{
-question: “Have you mentored junior engineers?”,
+```
+    {
+        question: "Have you mentored junior engineers?",
 
-answer: Yes. I regularly help team members understand Jenkins pipelines, Kubernetes concepts, Terraform modules and troubleshooting approaches. Knowledge sharing benefits both individuals and the organization.
+        answer: `Yes.
+```
+
+I regularly help team members understand Jenkins pipelines, Kubernetes concepts, Terraform modules and troubleshooting approaches.
+
+Knowledge sharing improves team effectiveness and reduces operational risk.`
 },
 
-{
-question: “How do you keep your skills updated?”,
+```
+    {
+        question: "How do you keep your skills updated?",
 
-answer: I continuously learn through hands-on labs, technical documentation, community content and experimentation in test environments. Cloud and Kubernetes technologies evolve rapidly, so continuous learning is essential.
+        answer: `I learn through hands-on labs, technical documentation, community resources and practical experimentation.
+```
+
+Cloud-native technologies evolve rapidly, so continuous learning is part of my routine.`
 },
 
-{
-question: “Why DevOps?”,
+```
+    {
+        question: "Why DevOps?",
 
-answer: I enjoy solving operational challenges through automation. DevOps combines development, infrastructure, automation and collaboration, which aligns well with my interests and strengths.
+        answer: `DevOps combines development, infrastructure and automation.
+```
+
+I enjoy solving operational challenges through automation and building platforms that improve developer productivity and system reliability.`
 },
 
-{
-question: “What motivates you?”,
+```
+    {
+        question: "What motivates you?",
 
-answer: Building reliable systems, solving complex problems and seeing automation improve productivity motivate me. I enjoy creating solutions that make teams more effective.
+        answer: `I enjoy solving complex problems, automating repetitive work and building reliable systems.
+```
+
+Seeing automation improve efficiency and reliability is particularly rewarding.`
 },
 
-{
-question: “How do you handle conflict?”,
+```
+    {
+        question: "How do you handle conflict?",
 
-answer: I focus on facts, data and outcomes rather than personalities. Most conflicts can be resolved through clear communication and shared understanding of goals.
+        answer: `I focus on facts, outcomes and communication.
+```
+
+Most conflicts can be resolved by understanding perspectives, aligning on goals and using data to guide decisions.`
 },
 
-{
-question: “Describe your leadership style.”,
+```
+    {
+        question: "Describe your leadership style.",
 
-answer: I lead through collaboration and example. I encourage knowledge sharing, ownership and continuous improvement while providing support when needed.
+        answer: `I lead through collaboration, technical guidance and example.
+```
+
+I encourage ownership, knowledge sharing and continuous improvement while providing support when required.`
 },
 
-{
-question: “How do you handle criticism?”,
+```
+    {
+        question: "How do you handle criticism?",
 
-answer: I view constructive criticism as an opportunity to improve. I listen carefully, evaluate the feedback objectively and use it to become more effective.
+        answer: `Constructive feedback is valuable because it highlights opportunities for improvement.
+```
+
+I listen carefully, evaluate feedback objectively and use it to grow professionally.`
 },
 
-{
-question: “What is your proudest achievement?”,
+```
+    {
+        question: "What is your proudest achievement?",
 
-answer: Successfully implementing infrastructure automation and CI/CD improvements that significantly reduced deployment time and operational effort while improving reliability.
+        answer: `Successfully implementing CI/CD and infrastructure automation that significantly reduced manual effort while improving deployment speed and reliability.`
+    },
+
+    {
+        question: "How do you approach learning a new technology?",
+
+        answer: `I begin with fundamentals, build small proof-of-concepts and gradually apply the technology to real-world use cases.
+```
+
+Hands-on learning is the most effective approach for me.`
 },
 
-{
-question: “How do you approach learning a new technology?”,
+```
+    {
+        question: "What do you enjoy most about your current role?",
 
-answer: I start with fundamentals, build small proof-of-concepts and gradually apply the technology to real-world scenarios. Hands-on practice accelerates learning.
+        answer: `I enjoy automation, cloud infrastructure and solving operational challenges.
+```
+
+Working with Kubernetes, Terraform and CI/CD pipelines keeps the work interesting and impactful.`
 },
 
-{
-question: “What do you enjoy most about your current role?”,
+```
+    {
+        question: "What type of work environment do you prefer?",
 
-answer: I enjoy solving infrastructure challenges, automating processes and working with cloud-native technologies.
+        answer: `I prefer collaborative environments that encourage ownership, learning and continuous improvement.
+```
+
+Teams that value automation and engineering excellence tend to produce the best outcomes.`
 },
 
-{
-question: “What type of work environment do you prefer?”,
+```
+    {
+        question: "Where do you see yourself in five years?",
 
-answer: Collaborative environments that encourage ownership, learning and continuous improvement.
+        answer: `I see myself continuing to grow in platform engineering, cloud infrastructure and reliability engineering while mentoring engineers and contributing to large-scale systems.`
+    },
+
+    {
+        question: "How do you manage multiple priorities?",
+
+        answer: `I evaluate urgency, business impact and dependencies.
+```
+
+Clear communication and proper prioritization help ensure that important work receives the attention it deserves.`
 },
 
-{
-question: “Where do you see yourself in five years?”,
+```
+    {
+        question: "Do you have any questions for us?",
 
-answer: I see myself growing into a senior platform engineering or reliability engineering role, contributing to large-scale infrastructure and mentoring engineers.
-},
+        answer: `I would like to understand the team's biggest infrastructure and reliability challenges.
+```
 
-{
-question: “How do you manage multiple priorities?”,
-
-answer: I evaluate urgency, business impact and dependencies, then organize work accordingly while communicating expectations clearly.
-},
-
-{
-question: “Do you have any questions for us?”,
-
-answer: I would like to understand the team's biggest operational challenges, how reliability is measured and what opportunities exist for automation and platform improvements.
+I am also interested in learning how success is measured and what opportunities exist for automation and platform improvements.`
 }
 
+```
 ]
+```
 
 };
 
