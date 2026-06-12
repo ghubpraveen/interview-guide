@@ -25,6 +25,7 @@ function render() {
                     <div
                         id="${sectionId}"
                         class="section-content"
+                        style="display:none;"
                     >
 
                         ${section.questions.map((q, idx) => {
@@ -73,16 +74,12 @@ function render() {
 
 window.toggleSection = function(id) {
 
-    const el =
-        document.getElementById(id);
+    const el = document.getElementById(id);
 
     if (!el) return;
 
-    const current =
-        window.getComputedStyle(el).display;
-
     el.style.display =
-        current === "none"
+        el.style.display === "none"
             ? "block"
             : "none";
 };
@@ -150,6 +147,12 @@ async function loadData() {
     );
 
     render();
+
+    document
+    .querySelectorAll(".section-content")
+    .forEach(el => {
+        el.style.display = "none";
+    });
 }
 
 loadData();
