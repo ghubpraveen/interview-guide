@@ -7,34 +7,28 @@ const container =
     document.getElementById("content");
 
 container.innerHTML =
-    sections.map(section => `
+    ${section.questions.map((q, idx) => `
 
-        <div class="section">
+    <div class="question">
 
-            <div class="section-title">
-                ${section.icon}
-                ${section.title}
-            </div>
-
-            ${section.questions.map(q => `
-
-                <div class="question">
-
-                    <h4>
-                        ${q.question}
-                    </h4>
-
-                    <div class="answer">
-                        ${q.answer}
-                    </div>
-
-                </div>
-
-            `).join("")}
-
+        <div
+            class="question-title"
+            onclick="toggleAnswer('${section.title}-${idx}')"
+        >
+            ❓ ${q.question}
         </div>
 
-    `).join("");
+        <div
+            id="${section.title}-${idx}"
+            class="answer"
+            style="display:none;"
+        >
+            ${q.answer}
+        </div>
+
+    </div>
+
+    `).join("")}
 
 
 }
