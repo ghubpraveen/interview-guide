@@ -9,4 +9,4 @@ import { gcpQuestions } from './data/gcp';
 import { reliabilityQuestions } from './data/reliability';
 import { incidentQuestions } from './data/incidents';
 
-export default function App(){ return <div><h1>DevOps Interview Guide</h1></div> }
+export default function App(){ return <div><h1>DevOps Guide</h1></div> }
