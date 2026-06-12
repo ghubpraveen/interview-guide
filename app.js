@@ -140,6 +140,8 @@ async function loadData() {
 
         import("./data/terraformScripts.js"),
 
+        import("./data/scripts.js"),
+
         import("./data/hr.js")
 
     ]);
