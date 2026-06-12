@@ -21,7 +21,7 @@ do
 
     if [ $usage -gt $THRESHOLD ]
     then
-        echo "ALERT: $mount usage is ${usage}%"
+        echo "ALERT: $mount usage is \${usage}%"
     fi
 done
 `
@@ -66,7 +66,7 @@ free -m
 
 MEM=$(free | awk '/Mem/{printf("%.0f"), $3/$2 * 100}')
 
-echo "Memory Usage: ${MEM}%"
+echo "Memory Usage: \${MEM}%"
 `
         },
 
