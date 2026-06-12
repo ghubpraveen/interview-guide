@@ -27,6 +27,18 @@ const experienceInterview = {
         },
 
         {
+            question: "Which database are you familiar with",
+
+            answer: `
+            I am not a database administrator, but I have worked extensively with application teams and DBAs while troubleshooting performance and production issues.
+
+            Most of my exposure has been with MySQL and PostgreSQL environments from an application and infrastructure perspective.
+
+            My focus has typically been on performance analysis, connection pooling, slow queries, database utilization, monitoring and troubleshooting rather than database administration.
+            `
+        },
+
+        {
             question: "Walk me through your resume.",
 
             answer: `

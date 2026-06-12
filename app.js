@@ -142,6 +142,8 @@ async function loadData() {
 
         import("./data/scripts.js"),
 
+        import("./data/database.js"),
+
         import("./data/hr.js")
 
     ]);
